@@ -1,0 +1,67 @@
+/* Estilo geral */
+body {
+    font-family: sans-serif;
+  }
+  
+  /* Container principal */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #0a4d90; /* Cor de fundo cinza claro */
+  }
+  
+  /* Caixa de cadastro */
+  .box {
+    border: 1px solid #8cb8f5;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff; /* Cor de fundo branco */
+  }
+  
+  /* Títulos */
+  h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #fff;
+  }
+  
+  h2 {
+    font-size: 18px;
+  }
+  
+  /* Formulário */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Inputs */
+  input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #233a8d;
+    width: 100%;
+  }
+  
+  /* Classes para inputs */
+  .nome-completo {
+    font-size: 14px;
+  }
+  
+  .cpf {
+    font-size: 14px;
+  }
+  
+  .modelo-carro, .marca, .problema, .quilometragem {
+    font-size: 14px;
+  }
+  
+  /* Botão */
+  button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #1e60a7; /* Cor azul */
+    color: #fff;
+    cursor: pointer;
+  }
